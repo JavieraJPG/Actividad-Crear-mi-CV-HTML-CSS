@@ -5,116 +5,186 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV - Javiera Paz Godoy Araya</title>
+    <link rel="stylesheet" href="static/style.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Javiera Paz Godoy Araya</h1>
-        <p><strong>Cel:</strong> 963409756</p>
-        <p><strong>Gmail:</strong> javierapaz592@gmail.com</p>
-    </header>
+    <div class="container">
 
-    <main>
-        <section>
-            <h2>Perfil Profesional</h2>
-            <p>
-                Desarrolladora de software con 3 años de experiencia en el desarrollo y mantenimiento de soluciones
-                backend,
-                con enfoque en eficiencia operativa, automatización y mejora continua. Experta en el diseño e
-                implementación
-                de microservicios en Java, integración de sistemas mediante Kafka y manejo de datos en tiempo real con
-                Snowflake.
-            </p>
-            <p>
-                Ha liderado la implementación de un sistema automatizado de seguimiento de requerimientos, lo que
-                permitió reducir
-                significativamente los reclamos y aumentar la satisfacción del cliente. También he participado en la
-                optimización
-                de bases de datos SQL, logrando mejoras notables en los tiempos de consulta para usuarios internos.
-            </p>
-            <p>
-                Su experiencia incluye el análisis y documentación técnica de conexiones entre sistemas y servicios,
-                facilitando
-                la resolución ágil de incidencias. Además, ha brindado apoyo activo en el desarrollo de programas
-                backend y
-                documentación interna, asegurando entregas puntuales y un respaldo técnico sólido para el equipo.
-            </p>
-            <p>
-                Mi estilo de trabajo es el compromiso y la comunicación.
-            </p>
-        </section>
+        <header>
+            <div class="hero">
+                <div class="hero-main">
+                    <h1>Javiera Paz<br>Godoy Araya</h1>
+                    <p>
+                        Desarrolladora de software con experiencia en backend, automatización,
+                        microservicios en Java, integración con Kafka y procesamiento de datos
+                        en tiempo real con Snowflake.
+                    </p>
+                </div>
 
-        <section>
-            <h2>Experiencia Profesional</h2>
+                <div class="hero-side">
+                    <div class="mini-card">
+                        <h3>Perfil</h3>
+                        <p>
+                            Enfoque en eficiencia operativa, mejora continua, documentación técnica
+                            y soporte sólido a equipos de desarrollo.
+                        </p>
+                    </div>
 
-            <article>
-                <h3>Accenture</h3>
-                <p><strong>Cargo:</strong> Programadora</p>
-                <p><strong>Periodo:</strong> 2023 – 2025</p>
+                    <div class="mini-card">
+                        <h3>Correo</h3>
+                        <p><a href="mailto:javierapaz592@gmail.com">javierapaz592@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-row">
+                <div class="contact-item">
+                    <strong>Teléfono</strong>
+                    963409756
+                </div>
+                <div class="contact-item">
+                    <strong>Especialidad</strong>
+                    Backend
+                </div>
+                <div class="contact-item">
+                    <strong>Tecnologías</strong>
+                    Java · Kafka · SQL
+                </div>
+                <div class="contact-item">
+                    <strong>Datos</strong>
+                    Snowflake · Docker · Git
+                </div>
+            </div>
+        </header>
+
+        <div class="grid">
+            <section class="card highlight">
+                <h2>Hola Mundo</h2>
                 <p>
-                    Encargada del desarrollo de soluciones backend, optimización de bases de datos, documentación
-                    técnica y
-                    procesamiento de datos en tiempo real para proyectos regionales e internacionales.
+                    Soy Javiera. Me enfoco en el desarrollo backend, integración de sistemas y
+                    optimización de procesos. Me interesa construir soluciones funcionales,
+                    ordenadas y escalables, con especial atención a la calidad técnica y la
+                    eficiencia operativa.
                 </p>
+            </section>
+
+            <aside class="card">
+                <h2>Skills</h2>
+                <div class="tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Kafka</span>
+                    <span class="tag">Snowflake</span>
+                    <span class="tag">Git</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">Documentación técnica</span>
+                    <span class="tag">Microservicios</span>
+                </div>
+            </aside>
+        </div>
+
+        <div class="grid">
+            <section class="card">
+                <h2>Estudios</h2>
+                <h3>Ingeniería en Informática</h3>
+                <p>DUOC UC — En proceso</p>
+
+                <br>
+
+                <h3>Técnico en Informática</h3>
+                <p>Universidad Técnica Federico Santa María — Incompleto</p>
+            </section>
+
+            <section class="card">
+                <h2>Cursos</h2>
+                <p><strong>AWS Cloud Practitioner</strong></p>
+                <p><strong>Python</strong></p>
+                <br>
+                <p><strong>Inglés:</strong> nivel medio</p>
+            </section>
+        </div>
+
+        <h2 class="section-title">Mi experiencia</h2>
+
+        <section class="experience-grid">
+            <article class="card experience-card">
+                <div class="job-header">
+                    <h3>Programadora — Accenture</h3>
+                    <p class="meta">2023 – 2025</p>
+                </div>
+
                 <ul>
-                    <li>Optimización de base de datos SQL, ayudando a agilizar los tiempos de consulta para el usuario
-                        interno.</li>
-                    <li>Desarrollo de microservicio en Java con Kafka y conexión a Snowflake, lo que hizo posible el
-                        procesamiento de datos en tiempo real.</li>
-                    <li>Análisis y documentación técnica de conexiones entre sistemas y servicios, mejorando la
-                        resolución de incidencias.</li>
-                    <li>Apoyo activo en el desarrollo de programas backend y documentación interna, permitiendo un
-                        eficiente respaldo y entregas a tiempo.</li>
+                    <li>Desarrollo de soluciones backend para proyectos regionales e internacionales.</li>
+                    <li>Optimización de bases de datos SQL para mejorar tiempos de consulta.</li>
+                    <li>Desarrollo de microservicios en Java con Kafka y conexión a Snowflake.</li>
+                    <li>Análisis y documentación técnica de conexiones entre sistemas y servicios.</li>
+                    <li>Apoyo al desarrollo interno y respaldo técnico para entregas a tiempo.</li>
                 </ul>
             </article>
 
-            <article>
-                <h3>Coca-Cola Embonor S.A.</h3>
-                <p><strong>Cargo:</strong> Servicio Técnico</p>
-                <p><strong>Periodo:</strong> 2022</p>
-                <p>
-                    Responsable de la atención técnica y seguimiento de tickets de soporte, enfocado en mejorar la
-                    experiencia del cliente.
-                </p>
+            <article class="card experience-card">
+                <div class="job-header">
+                    <h3>Servicio Técnico — Coca-Cola Embonor S.A.</h3>
+                    <p class="meta">2022</p>
+                </div>
+
                 <ul>
-                    <li>Implementación de sistema automatizado de seguimiento de requerimientos, lo que permitió
-                        disminuir los reclamos y subir la satisfacción del cliente.</li>
+                    <li>Atención técnica y seguimiento de tickets de soporte.</li>
+                    <li>Foco en mejora de experiencia del cliente y resolución eficiente.</li>
+                    <li>Implementación de sistema automatizado de seguimiento de requerimientos.</li>
+                    <li>Reducción de reclamos y aumento en satisfacción del cliente.</li>
                 </ul>
             </article>
         </section>
 
-        <section>
-            <h2>Antecedentes Académicos</h2>
-            <h3>Estudios y Certificaciones</h3>
-            <ul>
-                <li>Técnico en Informática - Universidad Técnica Federico Santa María (incompleto)</li>
-                <li>Ingeniería en Informática - DUOC UC (en proceso)</li>
-            </ul>
-        </section>
+        <div class="bottom-grid">
+            <section class="card">
+                <h2>Software / Herramientas</h2>
+                <div class="list-inline">
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Kafka</span>
+                    <span>Snowflake</span>
+                    <span>Git</span>
+                    <span>Docker</span>
+                    <span>AWS</span>
+                    <span>MS Office</span>
+                </div>
+            </section>
 
-        <section>
-            <h2>Otros Entrenamientos / Cursos Destacados</h2>
-            <ul>
-                <li>Amazon AWS - AWS Cloud Practitioner</li>
-                <li>Python</li>
-            </ul>
-        </section>
+            <section class="card">
+                <h2>Idiomas</h2>
 
-        <section>
-            <h2>Idiomas</h2>
-            <p>Inglés (nivel medio)</p>
-        </section>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>Español</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill" style="width: 100%;"></div>
+                    </div>
+                </div>
 
-        <section>
-            <h2>Otros</h2>
-            <ul>
-                <li>MS Office</li>
-                <li><strong>Lenguajes:</strong> Java, Python</li>
-                <li><strong>Tecnologías:</strong> Kafka, Snowflake, SQL</li>
-                <li><strong>Herramientas:</strong> Git, Docker</li>
-            </ul>
-        </section>
-    </main>
+                <div class="bar-group">
+                    <div class="bar-label">
+                        <span>Inglés</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="bar">
+                        <div class="bar-fill" style="width: 50%;"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>CV web de Javiera Paz Godoy Araya</p>
+        </footer>
+    </div>
 </body>
 
 </html>
